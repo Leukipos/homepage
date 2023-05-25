@@ -5,10 +5,24 @@ export default createGlobalStyle`
   *::before,
   *::after {
     box-sizing: border-box;
+    font-family: sans-serif;
   }
 
   body {
     margin: 0;
-    font-family: system-ui;
+    background-color: #7D9EAD;
+    color: #E3D9C3;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+   }
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
-`;
+`

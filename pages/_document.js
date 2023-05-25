@@ -26,7 +26,10 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <title>LX Zippel</title>
+          <meta name="description" content="Wellcome to the Homepage of Alexander Zippel."></meta>
+        </Head>
         <body>
           <Main />
           <NextScript />
